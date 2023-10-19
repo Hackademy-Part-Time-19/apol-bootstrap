@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+}
+
+.background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -2;
+    
+    
+
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(27, 27, 27);
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 60%;
+}
+
+.text {
+    flex: 1;
+
+}
+
+.mijloc {
+    flex: 1;
+    text-align: center;
+
+}
+
+.menu {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: gotu;
+    font-size: 12px;
+
+}
+
+.mijloc :hover {
+    color: rgb(47, 45, 45);
+
+}
+
+.dreapta {
+    flex: 1;
+    position: relative;
+    right: 110px;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+
+}
+
+.menuD {
+    margin-left: 21px;
+    text-decoration: none;
+    color: white;
+    font-family: gotu;
+    font-size: 12px;
+    
+}
+
+.nav {
+    margin-top: 70px;
+    position: sticky;
+}
+.stanga {
+    flex: 1;
+}
+.logo {
+    width: 265px;
+    position: absolute;
+    top: 60px;
+}
+.testoM {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+   margin-top: 290px;
+}
+
+.effect :hover {
+    transform: translatey(-20px);
+    cursor: pointer;
+}
+
+
+
+
+.effect {
+    display: flex; 
+    justify-content: center;
+    flex: 0.9; 
+    align-items: center; 
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+main {
+    display: flex; justify-content: center; align-items: center;
+}
+.row {
+    position: relative;
+    top: 600px;
+   height: 400%;
+   width: 100vw;
+}

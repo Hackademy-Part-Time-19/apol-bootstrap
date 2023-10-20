@@ -12,9 +12,7 @@
     top: 0;
     bottom: 0;
     z-index: -2;
-    filter:brightness(0.6)
-    
-
+    filter: brightness(0.6)
 }
 
 
@@ -53,7 +51,7 @@
     position: relative;
     right: 110px;
     display: flex;
-    justify-content:end;
+    justify-content: end;
     align-items: center;
 
 }
@@ -64,26 +62,29 @@
     color: white;
     font-family: gotu;
     font-size: 12px;
-    
+
 }
 
 .nav {
     margin-top: 70px;
     position: sticky;
 }
+
 .stanga {
     flex: 1;
 }
+
 .logo {
     width: 265px;
     position: absolute;
     top: 60px;
 }
+
 .testoM {
     display: flex;
     flex-direction: column;
     align-items: center;
-   margin-top: 290px;
+    margin-top: 290px;
 }
 
 .effect :hover {
@@ -95,43 +96,96 @@
 
 
 .effect {
-    display: flex; 
+    display: flex;
     justify-content: center;
-    flex: 0.9; 
-    align-items: center; 
+    flex: 0.9;
+    align-items: center;
     padding-top: 40px;
     margin-bottom: 20px;
 }
+
 main {
-    display: flex; justify-content: center; align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .row {
     position: relative;
-    top: 600px;
-   height: 400%;
-   width: 100vw;
-   display: flex;
-   justify-content:center;
-   align-items: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin: 0px;
+    top: 550px;
+    height: 400%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
 }
+
 .h1bot {
     font-size: 20px;
-    margin: 0px; 
+    margin: 0px;
     padding-left: 50px;
     font-family: Didot;
 }
+
 .pbot {
     margin: 0px;
     padding-right: 50px;
     margin-top: 15px;
     font-family: Didot;
 }
+
 .pbot2 {
-    font-size: 10px; 
+    font-size: 10px;
     padding-left: 50px;
-    margin:0px;
+    margin: 0px;
     font-family: Didot
+}
+
+.testobot {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    position: relative;
+    top: 500px;
+    color: white;
+    margin-left: 20px;
+}
+
+.divh1p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    flex: 0.1;
+    margin: 0px;
+    object-fit: cover;
+}
+.logomobile {
+    display: none;
+    
+}
+@media screen and (max-width: 1117px)  {
+    .logo {
+     display: none;
+    }
+}
+@media screen and (max-width: 1117px)  {
+    .mijloc {
+     display: none;
+    }
+}
+
+@media screen and (max-width: 1117px)  {
+    .logomobile {
+     display: flex;
+    height: 10vh;
+     
+    position: relative;
+    top: 120px;
+    
+    }
 }

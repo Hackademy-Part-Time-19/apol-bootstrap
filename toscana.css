@@ -12,23 +12,13 @@
     top: 0;
     bottom: 0;
     z-index: -2;
-    
+    filter:brightness(0.6)
     
 
 }
 
-.background {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    background-color: rgb(27, 27, 27);
-    z-index: -1;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    opacity: 60%;
-}
+
+
 
 .text {
     flex: 1;
@@ -46,8 +36,10 @@
     margin-right: 25px;
     text-decoration: none;
     color: white;
-    font-family: gotu;
+    font-family: didot;
     font-size: 12px;
+    background-color: rgba(12, 12, 12, 0);
+    border: none;
 
 }
 
@@ -89,7 +81,6 @@
 }
 .testoM {
     display: flex;
-    justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
    margin-top: 290px;
@@ -119,4 +110,28 @@ main {
     top: 600px;
    height: 400%;
    width: 100vw;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0px;
+}
+.h1bot {
+    font-size: 20px;
+    margin: 0px; 
+    padding-left: 50px;
+    font-family: Didot;
+}
+.pbot {
+    margin: 0px;
+    padding-right: 50px;
+    margin-top: 15px;
+    font-family: Didot;
+}
+.pbot2 {
+    font-size: 10px; 
+    padding-left: 50px;
+    margin:0px;
+    font-family: Didot
 }

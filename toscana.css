@@ -1,23 +1,153 @@
-* {
-    margin: 0px;
+main {
+    display: flex; justify-content: center; flex-direction: column; align-items: center;
 }
+.footerbox {
 
-.background-video {
+   
     width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -2;
-    filter: brightness(0.6)
+    height: 60px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.footerUL {
+    display: flex; 
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.menuspace {
+    padding: 20px;
+}
+.footerA {
+    padding-right:35px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    
+}
+.footerSocial {
+    display: flex;
+    
+}
+.footerAsocial {
+    padding:10px;
+    padding-bottom: 50px;
+}
+#rose :hover {
+
+    background-image: url(./imagini/rose.png);
+    background-size: cover;
 }
 
+#superiore :hover {
+
+    background-image: url(./imagini/supreme.png);
+    background-size: cover;
+}
+
+#treviso :hover {
+
+    background-image: url(./imagini/treviso.png);
+    background-size: cover;
+}
+@media screen and (max-width: 1117px) {
+    .logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1117px) {
+    .mijloc {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1117px) {
+    .logomobile {
+        display: flex;
+        height: 10vh;
+        position: relative;
+        top: 40px;
+
+    }
+}
+@media screen and (max-width: 708px) {
+    .footerUL {
+       display: flex;
+       flex-direction: column;
+       
+       
+       
+
+   }
+}
+@media screen and (max-width: 708px) {
+    .footerbox {
+       display: flex;
+       flex-direction: column;
+       align-items: center; 
+      
+   }
+}
+@media screen and (max-width: 708px) {
+    .footerA {
+        padding: 0px;
+        color: white;
+       
+   }
+}
+
+@media screen and (min-width: 575px) {
+    #inv3 {
+        display: none;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 708px) {
+    .inv2 {
+       display: flex;
+       
+      
+   }
+}
+@media screen and (max-width: 1062px) {
+    .textgirl {
+        display: none;
 
 
+    }
+}
 
+@media screen and (min-width: 1063px)   {
+    #inv {
+        display: none;
+
+
+    }
+}
+
+@media screen and (max-width: 508px) {
+    #inv2 {
+        display: none;
+
+
+    }
+}
+@media screen and (max-width: 1062px) {
+    .textgirl {
+        display: none;
+
+
+    }
+}
 .text {
     flex: 1;
 
@@ -37,11 +167,12 @@
     font-family: didot;
     font-size: 12px;
     background-color: rgba(12, 12, 12, 0);
-    border: none;
+
 
 }
 
 .mijloc :hover {
+
     color: rgb(47, 45, 45);
 
 }
@@ -67,7 +198,8 @@
 
 .nav {
     margin-top: 70px;
-    position: sticky;
+    position: relative;
+   
 }
 
 .stanga {
@@ -76,8 +208,9 @@
 
 .logo {
     width: 265px;
-    position: absolute;
-    top: 60px;
+    position: relative;
+    bottom: 40px;
+    
 }
 
 .testoM {
@@ -85,13 +218,17 @@
     flex-direction: column;
     align-items: center;
     margin-top: 290px;
+    position: relative;
+    bottom: 1000px;
 }
 
 .effect :hover {
-    transform: translatey(-20px);
+    transform: translatey(-30px);
     cursor: pointer;
-}
+    transition-duration: 1s, 5s;
+    
 
+}
 
 
 
@@ -102,17 +239,19 @@
     align-items: center;
     padding-top: 40px;
     margin-bottom: 20px;
+    
 }
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .row {
     position: relative;
-    top: 550px;
+    bottom: 430px;
     height: 400%;
     width: 100vw;
     display: flex;
@@ -148,11 +287,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: end;
     position: relative;
-    top: 500px;
+    bottom: 50px;
     color: white;
-    margin-left: 20px;
+
+
 }
 
 .divh1p {
@@ -164,28 +303,76 @@ main {
     margin: 0px;
     object-fit: cover;
 }
+
 .logomobile {
     display: none;
-    
+
 }
-@media screen and (max-width: 1117px)  {
+footer{
+    position: relative;
+    bottom: 0px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+* {
+    margin: 0px;
+
+}
+
+.background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -2;
+    filter: brightness(0.5)
+}
+   
+        
+
+
+@media screen and (max-width: 1117px) {
     .logo {
-     display: none;
-    }
-}
-@media screen and (max-width: 1117px)  {
-    .mijloc {
-     display: none;
+        display: none;
     }
 }
 
-@media screen and (max-width: 1117px)  {
-    .logomobile {
-     display: flex;
-    height: 10vh;
-     
-    position: relative;
-    top: 120px;
-    
+@media screen and (max-width: 1117px) {
+    .mijloc {
+        display: none;
     }
+}
+
+@media screen and (max-width: 1117px) {
+    .logomobile {
+        display: flex;
+        height: 10vh;
+        position: relative;
+        top: 40px;
+
+    }
+}
+@media screen and (max-width: 1106px) {
+    .testoM {
+        position: relative;
+        bottom: 200px;
+        z-index: 100000;
+        margin-bottom: 550px;
+        
+    }
+}
+.footerbox :hover {
+
+    color: rgb(47, 45, 45);
+
+}
+
+#kkk :hover {
+
+   background-color: red;
 }
